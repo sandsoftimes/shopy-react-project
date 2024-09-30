@@ -1,0 +1,219 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ul{
+  list-style-type:none;
+  position: fixed;
+  top: 40px;
+  right: 770px;
+}
+li{
+  display: inline;
+  margin-left: 30px;
+}
+.l1{
+  color: black;
+}
+.logoPY{
+  position: fixed;
+  top: 0;
+  left: 100px;
+  color: black;
+}
+.makeorange{
+  color: orange;
+}
+.discoverD{
+  color: black;
+  position: fixed;
+  top: 130px;
+  left: 100px;
+}
+.fashionF{
+  color: black;
+  position: fixed;
+  left: 230px;
+  top: 290px;
+}
+.numberO{
+  color: black;
+  position: fixed;
+  left: 100px;
+  top: 335px;
+}
+.viewsV{
+  position: fixed;
+  left: 80px;
+  bottom: 340px;
+  width: 250px;
+}
+.twentyfiveoff{
+  position: fixed;
+  top: 380px;
+  left: 600px;
+  color: black;
+  z-index: 9;
+}
+.offnewarri{
+  color: black;
+  position: fixed;
+  bottom: 380px;
+  left: 580px;
+  z-index: 8;
+}
+.ournewprod{
+  color: white;
+  position: fixed;
+  bottom: 70px;
+  right: 225px;
+  z-index: 7
+}
+.ifwedefine{
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 170px;
+  z-index: 6
+}
+.searchbar{
+  position: fixed;
+  top: 52px;
+  right: 460px;
+  box-shadow: 10px 10px 8px #888888;
+}
+.startshop{
+  color: black;
+  background-color: orange;
+  position: fixed;
+  left: 230px;
+  top: 400px;
+}
+.seeall{
+  color: black;
+  background-color: orange;
+  position: fixed;
+  bottom: 90px;
+  left: 693px;
+  z-index: 5;
+  width: 100px;
+}
+.capC{
+  position: fixed;
+  bottom: 30px;
+  left: 270px;
+  z-index: 4;
+  border-radius: 8%;
+  height: 230px;
+}
+.perfumeP{
+  position: fixed;
+  bottom: 150px;
+  left: 620px;
+  z-index: 3;
+  border-radius: 8%;
+  height: 230px;
+}
+.shoesS{
+  position: fixed;
+  bottom: 30px;
+  left: 970px;
+  z-index: 2;
+  border-radius: 8%;
+  height: 230px;
+}
+.arrowA{
+  position: fixed;
+  bottom: 480px;
+  left: 520px;
+  width: 200px;
+}
+.weatherW{
+  position: fixed;
+  bottom: 625px;
+  left: 360px;
+  width: 120px;
+}
+.rightR{
+  position: fixed;
+  right: 180px;
+  bottom: 300px;
+  width: 260px;
+}
+body{
+  background-image: linear-gradient(to right, white 0%, white 50%, #FBFAF3 50%, #FBFAF3 100%);
+  z-index: 0;
+}
+.bottomcolor{
+  background-color: #796EFF;
+  width: 2200px;
+  height: 300px;
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  z-index: 1;
+}
+.rightleft1{
+  height: 300px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+}
+.rightleft2{
+  height: 300px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+}
+.line-dotted{
+    display: inline-block; 
+    width: 110px; 
+    height: 2px; 
+    background-color: black; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+    z-index: 9;
+    position: fixed;
+    left: 100px;
+    top: 318px;
+}
